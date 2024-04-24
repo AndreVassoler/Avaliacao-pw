@@ -1,0 +1,91 @@
+ /* Reset de estilos para garantir consistência em diferentes navegadores */
+ body,
+ h1,
+ h2,
+ p,
+ ul,
+ ol,
+ li,
+ figure,
+ table,
+ th,
+ td {
+     margin: 0;
+     padding: 0;
+ }
+
+ * {
+    box-sizing: border-box; /* faz com que o padding não utrapasse o limite da tela */
+ }
+
+ main {
+    
+    margin: 20px;
+ }
+
+ a {
+   text-decoration: none;
+   color: white; 
+ }
+
+ button:hover {
+   opacity: 0.8;
+   transition: opacity 0.5s;
+   color: #333; 
+
+ }
+
+
+ ul li {
+    margin-left: 20px;
+ }
+
+ body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+ }
+
+ header {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+ }
+
+ header h1 {
+    font-size: 24px;
+ }
+
+ button {
+    color: #f4f4f4;
+    background-color: #0074d9;
+    border: transparent;
+    cursor: pointer;
+ }
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ 
+ footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+ }
+
+ footer a {
+    color: white;
+    text-decoration: none;
+ }
+
+ 
